@@ -775,7 +775,7 @@ class labFrame1Q_1R_hamiltonian():
                     s = 0
                     t = 1
                 plt.hlines(ene, s, t)
-                plt.text(s, ene+0.4, '|'+key+'>'+':{:.4f}GHz'.format(ene))
+                plt.text(s, ene+0.4, '|'+key+r'$\rangle$'+':{:.4f}GHz'.format(ene))
 
         plt.ylim([-1.0, ene+3])
         plt.ylabel('Eigen energy [GHz]')
